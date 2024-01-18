@@ -1,42 +1,16 @@
-import { createDemand, createSupply, dashboard, logout, payment, profile, withdraw } from '../assets';
+import { dashboard, logout, profile } from '../assets';
 
 export const navlinks = [
   {
     name: 'dashboard',
     imgUrl: dashboard,
-    link: '/',
-  },
-  {
-    name: 'task',
-    imgUrl: createTask,
-    link: '/create-task',
-  },
-  {
-    name: 'buyer',
-    imgUrl: createDemand,
-    link: '/create-demand',
-  },
-  {
-    name: 'seller',
-    imgUrl: createSupply,
-    link: '/create-supply',
-  },
-  {
-    name: 'payment',
-    imgUrl: payment,
-    link: '/',
-    disabled: true,
-  },
-  {
-    name: 'withdraw',
-    imgUrl: withdraw,
-    link: '/',
-    disabled: true,
+    link: '/dashboard',
   },
   {
     name: 'profile',
     imgUrl: profile,
-    link: '/profile',
+    link: '/',
+    disabled: true,
   },
   {
     name: 'logout',

@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.9;
-
-contract DEMS {
+import "./registerMeter.sol";
+contract DEMS is registerMeter {
     
     struct EnergyData {
         uint256 productionTimestamp;
