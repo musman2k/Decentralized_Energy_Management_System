@@ -14,7 +14,7 @@ const Sidebar: React.FC = () => {
   const toggle = () => setIsOpen(!isOpen);
 
   const menuItem: MenuItem[] = [
-    { name: "Home", icon: images.Home, route: "/home" },
+    { name: "Home", icon: images.Home, route: "/" },
     { name: "Dashboard", icon: images.dashboard, route: "/dashboard" },
     { name: "Seller", icon: images.Sellerspark, route: "/seller" },
     { name: "Buyer", icon: images.Buyerp2p, route: "/buyer" }

@@ -1,9 +1,8 @@
 import React from 'react';
 
-// Define a type for the component props
 type EnergyDisplayProps = {
     title: string;
-    value: number | string;  // Allow both number and string to accommodate various formats
+    value: number | string;  
     unit: string;
     color: string;
 };

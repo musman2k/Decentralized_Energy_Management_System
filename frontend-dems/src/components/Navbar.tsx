@@ -13,21 +13,17 @@ const Navbar: React.FC = () => {
 
   return (
     <div className="flex md:flex-row flex-col-reverse justify-between mb-8 gap-6 p-3">
-      {/* Logo Section */}
       <div className="lg:flex-1 flex items-center justify-center md:justify-start py-2 pl-4 pr-2 h-13 rounded-full">
         <img
           src={images.logo}
           alt="Logo"
-          className="h-10 w-auto object-contain" // Adjust the height and width here
+          className="h-10 w-auto object-contain" 
         />
       </div>
-
-      {/* Connect Button for larger screens */}
       <div className="hidden sm:flex flex-row justify-end items-center gap-4">
         <ConnectButton client={client} wallets={wallets} />
       </div>
 
-      {/* Small screen navigation */}
       <div className="sm:hidden flex justify-between items-center relative">
         <img
           src={images.menu}
